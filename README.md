@@ -2,7 +2,10 @@ If you run `yarn` in a script like
 
 ```
 "scripts": {
-   "3": "yarn 1 && yarn 2"
+    "1": "echo 1",
+    "2": "echo 2",
+    "3": "yarn 1 && yarn 2",
+    "4": "./run.sh"
 }
 ```
 

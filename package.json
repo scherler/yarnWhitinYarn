@@ -1,0 +1,12 @@
+{
+  "name": "yarnBug",
+  "version": "1.0.0",
+  "description": "concurrency bug in linux",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "1": "echo 1",
+    "2": "echo 2",
+    "3": "yarn 1 && yarn 2"
+  }
+}

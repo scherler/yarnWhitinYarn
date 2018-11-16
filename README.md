@@ -16,4 +16,8 @@ Linux mysterion 4.18.0-2-amd64 #1 SMP Debian 4.18.10-2 (2018-11-02) x86_64 GNU/L
 
 ```
 
-However I tested a couple of yarn version the problem exist in any of them. 
+However I tested a couple of yarn version the problem exist in any of them.
+
+If you run the `run.sh` all works fine, but if you do `yarn 4` the issue occur.
+
+If you do either `npm run 3` or `npm run 4` it works fine.
